@@ -1,10 +1,10 @@
-# 🛡️ Sentinel AI: Plataforma de Detección de Fraude Local
+#Sentinel AI: Plataforma de Detección de Fraude Local
 
 Sentinel AI es un dashboard interactivo construido con Python y Streamlit diseñado para la detección de anomalías y fraudes en transacciones financieras. 
 
 La principal ventaja de este sistema es su **enfoque en la privacidad**: todo el procesamiento de Machine Learning y análisis de datos se ejecuta de forma 100% local en la memoria RAM del equipo, sin enviar información sensible a la nube o servidores de terceros.
 
-## ✨ Características Principales
+## Características Principales
 
 * **Procesamiento Local Seguro:** Carga de archivos CSV pesados y ejecución del modelo en entorno local.
 * **Inteligencia Artificial Integrada:** Utiliza el algoritmo `Isolation Forest` de Scikit-Learn para detectar comportamientos transaccionales que se desvían de la norma estadística (Outliers).
@@ -14,7 +14,7 @@ La principal ventaja de este sistema es su **enfoque en la privacidad**: todo el
 * **Módulo de Inspección Prioritaria:** Panel interactivo para aislar, auditar y simular el bloqueo de las transacciones más críticas.
 * **Exportación de Datos:** Generación de reportes limpios en formato CSV con las banderas de fraude integradas.
 
-## 🛠️ Tecnologías Utilizadas
+##Tecnologías Utilizadas
 
 * **Lenguaje:** Python 3.x
 * **Frontend / Dashboard:** [Streamlit](https://streamlit.io/)
@@ -22,7 +22,7 @@ La principal ventaja de este sistema es su **enfoque en la privacidad**: todo el
 * **Machine Learning:** Scikit-Learn (`IsolationForest`, `StandardScaler`)
 * **Visualización:** Plotly Express
 
-## 🚀 Instalación y Ejecución
+## Instalación y Ejecución
 
 Sigue estos pasos para levantar el entorno de desarrollo en tu máquina local (instrucciones para Windows PowerShell):
 
